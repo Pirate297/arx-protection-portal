@@ -84,15 +84,19 @@ export default function CertificationsPage() {
                   <h2 className="text-4xl font-bold text-black">NATO CAGE Number</h2>
                 </div>
                 
-                <div className="mb-6">
+                <div className="mb-6 flex items-center gap-4">
                   <span className="inline-block bg-yellow-100 text-yellow-800 text-sm font-semibold px-4 py-2 rounded-full">
                     Government Certification
                   </span>
+                  <div className="bg-blue-900 text-white px-6 py-3 rounded-lg border-2 border-blue-700">
+                    <span className="text-sm font-semibold">CAGE Code:</span>
+                    <span className="text-2xl font-bold ml-2">#SLHT3</span>
+                  </div>
                 </div>
 
                 <p className="text-lg text-gray-700 mb-6">
                   ARX Protection is an <strong>authorized supplier</strong> for government and military contracts 
-                  with full international procurement compliance through our NATO Commercial and Government Entity (CAGE) Code.
+                  with full international procurement compliance through our NATO Commercial and Government Entity (CAGE) Code <strong>#SLHT3</strong>.
                 </p>
 
                 <div className="space-y-4">
@@ -204,19 +208,28 @@ export default function CertificationsPage() {
             <h2 className="text-3xl font-bold mb-8">Additional Professional Affiliations</h2>
             
             <div className="grid md:grid-cols-3 gap-6">
-              <div className="bg-gray-800 p-6 rounded-lg">
+              <div className="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition-all">
+                <div className="bg-white p-4 rounded-lg mb-4">
+                  <img src="/certifications/bepp-logo.png" alt="Board of Executive Protection Professionals" className="w-full h-auto" />
+                </div>
                 <h3 className="text-xl font-bold text-yellow-600 mb-2">Board of Executive Protection Professionals</h3>
                 <p className="text-sm text-gray-300 mb-2">Board Member</p>
                 <p className="text-xs text-gray-400">Leadership in professional executive protection standards</p>
               </div>
 
-              <div className="bg-gray-800 p-6 rounded-lg">
+              <div className="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition-all">
+                <div className="bg-white p-4 rounded-lg mb-4">
+                  <img src="/certifications/asis-logo.png" alt="ASIS International" className="w-full h-auto" />
+                </div>
                 <h3 className="text-xl font-bold text-yellow-600 mb-2">ASIS International</h3>
                 <p className="text-sm text-gray-300 mb-2">Member</p>
                 <p className="text-xs text-gray-400">World's largest security management organization</p>
               </div>
 
-              <div className="bg-gray-800 p-6 rounded-lg">
+              <div className="bg-gray-800 p-6 rounded-lg hover:bg-gray-700 transition-all">
+                <div className="bg-white p-4 rounded-lg mb-4">
+                  <img src="/certifications/iappa-logo.jpg" alt="IAPPA" className="w-full h-auto" />
+                </div>
                 <h3 className="text-xl font-bold text-yellow-600 mb-2">IAPPA</h3>
                 <p className="text-sm text-gray-300 mb-2">Member</p>
                 <p className="text-xs text-gray-400">International Association of Personal Protection Agents</p>
