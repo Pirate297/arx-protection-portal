@@ -1,0 +1,123 @@
+import { Shield, Camera, Lock, Plane, CheckCircle } from 'lucide-react'
+import { Button } from '@/components/ui/button.jsx'
+import { Link } from 'react-router-dom'
+
+export default function ServicesPage() {
+  const services = [
+    {
+      icon: Shield,
+      title: "Protection Services",
+      description: "Elite personal and executive security solutions",
+      features: [
+        "Executive & VIP Protection",
+        "Close Protection Services",
+        "Fast Response Teams",
+        "Event Security & Crowd Control",
+        "Commercial Security Officers"
+      ]
+    },
+    {
+      icon: Camera,
+      title: "Security Technology Solutions",
+      description: "Advanced security systems and monitoring",
+      features: [
+        "AJAX Alarm Systems Installation",
+        "Surveillance Camera Systems",
+        "Solar Security Cameras",
+        "System Maintenance & Monitoring",
+        "Physical Security Penetration Testing"
+      ]
+    },
+    {
+      icon: Lock,
+      title: "Specialized Security Services",
+      description: "Premium security and support services",
+      features: [
+        "Executive Chauffeuring",
+        "Tour Management & Coordination",
+        "Security Training & Certifications",
+        "Risk Assessment & Consulting"
+      ]
+    },
+    {
+      icon: Plane,
+      title: "Aerial & Counter-Drone Services",
+      description: "Advanced aerial surveillance and protection",
+      features: [
+        "Aerial Surveillance & Monitoring",
+        "Event Coverage & Security",
+        "Perimeter Patrol",
+        "Emergency Response Support",
+        "Search & Rescue Operations",
+        "Real-Time Video Transmission",
+        "Night Operations with Spotlight",
+        "Public Address via Speaker System",
+        "RTK Precision Positioning",
+        "Anti-Drone Services (Coming Q1 2026)"
+      ]
+    }
+  ]
+
+  return (
+    <div className="min-h-screen bg-white pt-20">
+      {/* Hero Section */}
+      <section className="py-20 px-4 bg-gradient-to-br from-black to-gray-900 text-white">
+        <div className="max-w-7xl mx-auto text-center">
+          <h1 className="text-5xl md:text-6xl font-bold mb-6">Our Services</h1>
+          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+            Comprehensive security solutions tailored to protect what matters most
+          </p>
+        </div>
+      </section>
+
+      {/* Services Grid */}
+      <section className="py-20 px-4">
+        <div className="max-w-7xl mx-auto">
+          <div className="grid md:grid-cols-2 gap-12">
+            {services.map((service, index) => {
+              const Icon = service.icon
+              return (
+                <div key={index} className="bg-white p-8 rounded-lg shadow-xl border-2 border-gray-100 hover:border-gold transition-all duration-300">
+                  <div className="flex items-start mb-6">
+                    <div className="w-16 h-16 bg-gold/10 rounded-full flex items-center justify-center mr-4 flex-shrink-0">
+                      <Icon className="h-8 w-8 text-gold" />
+                    </div>
+                    <div>
+                      <h3 className="text-2xl font-bold text-black mb-2">{service.title}</h3>
+                      <p className="text-gray-600">{service.description}</p>
+                    </div>
+                  </div>
+                  
+                  <ul className="space-y-3">
+                    {service.features.map((feature, featureIndex) => (
+                      <li key={featureIndex} className="flex items-start">
+                        <CheckCircle className="h-5 w-5 text-gold mr-3 flex-shrink-0 mt-0.5" />
+                        <span className="text-gray-700">{feature}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* CTA Section */}
+      <section className="py-20 px-4 bg-gray-50">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-4xl font-bold text-black mb-6">Need a Custom Security Solution?</h2>
+          <p className="text-xl text-gray-600 mb-8">
+            Our team can design a tailored security package that meets your specific needs
+          </p>
+          <Link to="/contact">
+            <Button size="lg" className="bg-gold text-black hover:bg-gold/90 text-lg px-8 py-6">
+              Request Consultation
+            </Button>
+          </Link>
+        </div>
+      </section>
+    </div>
+  )
+}
+
