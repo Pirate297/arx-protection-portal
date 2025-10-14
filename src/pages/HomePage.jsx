@@ -31,7 +31,7 @@ export default function HomePage() {
               </Button>
             </Link>
             <Link to="/services">
-              <Button size="lg" variant="outline" className="border-white text-white hover:bg-white/10 text-lg px-8 py-6">
+              <Button size="lg" variant="outline" className="border-2 border-white text-white hover:bg-white hover:text-black text-lg px-8 py-6 font-semibold">
                 View Our Services
               </Button>
             </Link>
