@@ -56,6 +56,14 @@ export default function Navigation() {
                 Store
               </Button>
             </Link>
+            <Link to="/certifications">
+              <Button 
+                variant={isActive('/certifications') ? 'default' : 'ghost'}
+                className={isActive('/certifications') ? 'bg-gold text-black hover:bg-gold/90' : 'text-white hover:text-gold hover:bg-white/10'}
+              >
+                Certifications
+              </Button>
+            </Link>
             <Link to="/contact">
               <Button 
                 variant={isActive('/contact') ? 'default' : 'ghost'}

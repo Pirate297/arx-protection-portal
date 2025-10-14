@@ -7,6 +7,7 @@ import ServicesPage from './pages/ServicesPage.jsx'
 import ContactPage from './pages/ContactPage.jsx'
 import CoursesPage from './components/CoursesPage.jsx'
 import StorePage from './components/StorePage.jsx'
+import CertificationsPage from './pages/CertificationsPage.jsx'
 import './App.css'
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Route path="/courses" element={<CoursesPage />} />
           <Route path="/store" element={<StorePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/certifications" element={<CertificationsPage />} />
         </Routes>
         <Footer />
       </div>
