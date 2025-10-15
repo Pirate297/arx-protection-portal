@@ -127,9 +127,9 @@ export default function CertificationsPage() {
 
               <div className="bg-gray-50 p-8 rounded-lg border-2 border-gray-200">
                 <img 
-                  src="/certifications/nato-cage-certificate.jpg" 
-                  alt="NATO CAGE Certificate" 
-                  className="w-full h-auto rounded-lg shadow-lg"
+                  src="/certifications/nato-logo.png" 
+                  alt="NATO Logo" 
+                  className="w-64 h-auto mx-auto"
                 />
               </div>
             </div>
