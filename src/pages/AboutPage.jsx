@@ -59,7 +59,7 @@ export default function AboutPage() {
         "FEMA Certifications"
       ],
       languages: ["English", "Papiamento", "Dutch", "Spanish"],
-      photo: "https://static.wixstatic.com/media/a40fbc_c5d0c0e4c5b34d1f9b8e8f0e0e0e0e0e~mv2.jpg",
+      photo: "/team/alexander.jpeg",
       specialAchievement: "International Executive & Diplomatic Protection",
       link: "https://hihello.me/p/f5c16eb4-6a9d-4563-95a2-de56f289c66e"
     },
@@ -76,7 +76,7 @@ export default function AboutPage() {
         "Technical Security Systems"
       ],
       languages: ["English", "Papiamento", "Dutch", "Spanish"],
-      photo: "https://static.wixstatic.com/media/a40fbc_8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e8e~mv2.jpg",
+      photo: "/team/cedric.jpeg",
       link: "https://hihello.me/p/7f072a28-3135-4162-825b-42e37722e33a"
     },
     {
@@ -91,7 +91,7 @@ export default function AboutPage() {
         "Operations Management"
       ],
       languages: ["English", "Papiamento", "Dutch", "Spanish"],
-      photo: "https://static.wixstatic.com/media/a40fbc_9e9e9e9e9e9e9e9e9e9e9e9e9e9e9e9e~mv2.jpg",
+      photo: "/team/millicent.jpeg",
       link: "https://www.linkedin.com/in/millicentalvarez"
     },
     {
@@ -106,7 +106,7 @@ export default function AboutPage() {
         "Aruba Excellence Certification"
       ],
       languages: ["English", "Papiamento", "Dutch", "Spanish"],
-      photo: "https://static.wixstatic.com/media/a40fbc_7e7e7e7e7e7e7e7e7e7e7e7e7e7e7e7e~mv2.jpg",
+      photo: "/team/bruce.jpeg",
       specialAchievement: "AHATA Excellence Award Winner",
       link: "https://hihello.me/p/bc58f447-7c78-419c-8eef-a37dc80d37b4"
     },
@@ -122,7 +122,7 @@ export default function AboutPage() {
         "Aruba Excellence Certification"
       ],
       languages: ["English", "Papiamento", "Dutch", "Spanish"],
-      photo: "https://static.wixstatic.com/media/a40fbc_6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e6e~mv2.jpg",
+      photo: "/team/dijon.jpeg",
       link: "https://hihello.me/p/88e009be-5acc-422d-a982-06dbe81dccd4"
     }
   ];
