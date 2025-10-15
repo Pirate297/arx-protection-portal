@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button.jsx'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card.jsx'
 import { Badge } from '@/components/ui/badge.jsx'
 import { Calendar, Clock, Users, Award, MapPin, CheckCircle, Heart, Shield, UserCheck } from 'lucide-react'
+import CourseRegistrationForm from './CourseRegistrationForm.jsx'
 
 const courses = [
   {
@@ -202,11 +203,16 @@ function CourseCard({ course, onEnroll }) {
 
 export function CoursesPage() {
   const [selectedCourse, setSelectedCourse] = useState(null)
+  const [showRegistrationForm, setShowRegistrationForm] = useState(false)
 
   const handleEnroll = (course, session) => {
     setSelectedCourse({ course, session })
-    // This would trigger the Sentoo payment integration
-    console.log('Enrolling in:', course.title, 'on', session.date)
+    setShowRegistrationForm(true)
+  }
+
+  const handleCloseForm = () => {
+    setShowRegistrationForm(false)
+    setSelectedCourse(null)
   }
 
   return (
@@ -313,6 +319,15 @@ export function CoursesPage() {
           </div>
         </div>
       </section>
+
+      {/* Registration Form Modal */}
+      {showRegistrationForm && selectedCourse && (
+        <CourseRegistrationForm
+          course={selectedCourse.course}
+          session={selectedCourse.session}
+          onClose={handleCloseForm}
+        />
+      )}
     </div>
   )
 }
