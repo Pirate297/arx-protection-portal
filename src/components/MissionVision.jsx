@@ -36,8 +36,8 @@ export default function MissionVision() {
 
   const missionData = {
     title: "Our Mission",
-    tagline: "Your Protection in an Imperfect World",
-    description: "In an ever-changing security landscape, we provide stability, expertise, and unwavering commitment to our clients' safety. We believe that your safety deserves undivided attention, and we fortify your world with professional security solutions tailored to your specific needs.",
+    tagline: "Bespoke Protection Tailored to Your Needs",
+    description: "Our mission is to provide protection and security to our clients through a bespoke service tailored to their specific needs. Ultimately, the safety and security of the client's staff, premises, assets and the general public is our highest priority.",
     icon: Target,
     color: "from-yellow-400 via-yellow-500 to-yellow-600",
     particles: [
@@ -49,8 +49,8 @@ export default function MissionVision() {
 
   const visionData = {
     title: "Our Vision",
-    tagline: "Excellence Through Trust",
-    description: "Through our commitment to high standards it is our vision to earn the trust of our clients by delivering the best quality services. We aim to be the Caribbean's most trusted security partner, setting the benchmark for excellence in executive protection and security solutions.",
+    tagline: "Excellence Through Continuous Improvement",
+    description: "We are committed to the ongoing improvement of the services we provide to our clients. By investing in and developing our most important assets, our staff, we aim to achieve all our goals and exceed our clients' expectations. Through our commitment to high standards it is our vision to earn the trust of our clients by delivering the best quality services.",
     icon: Eye,
     color: "from-blue-400 via-blue-500 to-blue-600",
     particles: [

@@ -131,7 +131,7 @@ export default function AboutPage() {
     {
       icon: Heart,
       title: "Honesty & Integrity",
-      description: "We value above all else honesty, integrity, and unselfishness in every interaction and operation.",
+      description: "As a company and as individuals we value above all else honesty, integrity, and unselfishness.",
       color: "from-red-400 to-pink-500",
       delay: 0
     },
@@ -145,7 +145,7 @@ export default function AboutPage() {
     {
       icon: Target,
       title: "Accountability",
-      description: "We hold ourselves accountable by honoring our commitments, providing results, and striving for excellence.",
+      description: "We hold ourselves accountable to our clients, staff and partners by honoring our commitments, providing results and continually striving to provide the highest quality services.",
       color: "from-green-400 to-emerald-500",
       delay: 0.2
     },
