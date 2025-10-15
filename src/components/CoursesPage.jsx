@@ -172,13 +172,24 @@ function CourseCard({ course, onEnroll }) {
                           <Users className="h-3 w-3 mr-1 text-gold" />
                           <span className="font-medium">{session.spots} spots available</span>
                         </div>
-                        <Button 
-                          size="sm" 
-                          className="bg-gold text-black hover:bg-gold/90"
-                          onClick={() => onEnroll(course, session)}
-                        >
-                          Enroll Now
-                        </Button>
+                        {course.id === 1 ? (
+                          <Button 
+                            size="sm" 
+                            className="bg-gold text-black hover:bg-gold/90"
+                            onClick={() => onEnroll(course, session)}
+                          >
+                            Enroll Now
+                          </Button>
+                        ) : (
+                          <Button 
+                            size="sm" 
+                            variant="outline"
+                            className="border-gold text-gold hover:bg-gold/10"
+                            disabled
+                          >
+                            Coming Soon
+                          </Button>
+                        )}
                       </div>
                     </div>
                   ))}
