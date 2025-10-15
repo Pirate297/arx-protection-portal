@@ -151,42 +151,6 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Professional Affiliations Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <div className="max-w-6xl mx-auto">
-            <h2 className="text-3xl font-bold text-center text-black mb-4">Professional Affiliations & Memberships</h2>
-            <p className="text-center text-gray-600 mb-12 max-w-3xl mx-auto">
-              ARX Protection maintains prestigious memberships and certifications that demonstrate our commitment 
-              to industry excellence and professional standards.
-            </p>
-            
-            <div className="grid md:grid-cols-2 gap-6">
-              {affiliations.map((affiliation, index) => {
-                const IconComponent = affiliation.icon;
-                return (
-                  <div key={index} className="bg-white border-2 border-gray-200 rounded-lg p-6 hover:border-yellow-600 hover:shadow-lg transition-all duration-300">
-                    <div className="flex items-start gap-4">
-                      <div className="bg-yellow-100 p-3 rounded-lg">
-                        <IconComponent className="w-6 h-6 text-yellow-600" />
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex items-center gap-2 mb-2">
-                          <h3 className="text-lg font-bold text-black">{affiliation.name}</h3>
-                        </div>
-                        <p className="text-xs text-yellow-600 font-semibold mb-2">{affiliation.type}</p>
-                        <p className="text-sm text-gray-600">{affiliation.description}</p>
-                      </div>
-                      <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                    </div>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Values Section */}
       <section className="py-16">
         <div className="container mx-auto px-4">
