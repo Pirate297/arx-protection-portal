@@ -11,10 +11,10 @@ const courses = [
     category: "Emergency Response",
     icon: Heart,
     image: "/courses/stop-the-bleed.jpeg",
-    description: "Learn life-saving bleeding control techniques. This course teaches you how to recognize life-threatening bleeding and intervene effectively.",
+    description: "Learn life-saving bleeding control techniques. This course teaches you how to recognize life-threatening bleeding and intervene effectively. ARX Protection is a registered licensee of the American College of Surgeons (ACS) and US Department of Defense Stop the Bleed program.",
     duration: "4 hours",
     price: 270.00,
-    certification: "Stop the Bleed Certification",
+    certification: "ACS & US DoD Stop the Bleed Certification",
     color: "from-red-500 to-rose-600",
     iconColor: "from-red-500 to-rose-500",
     highlights: [
@@ -22,7 +22,9 @@ const courses = [
       "Proper tourniquet application",
       "Wound packing techniques",
       "Hands-on practical training",
-      "Official certification upon completion"
+      "ACS (American College of Surgeons) Certificate",
+      "US Department of Defense Certificate",
+      "Registered licensee training program"
     ],
     upcomingSessions: [
       { date: "2025-11-15", time: "09:00 AM", location: "ARX Training Center, Oranjestad", spots: 12 },
