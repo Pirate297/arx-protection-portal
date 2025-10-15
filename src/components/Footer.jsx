@@ -26,12 +26,11 @@ export default function Footer() {
           </div>
           
           <div>
-            <h4 className="font-semibold mb-4 text-gold">Credentials</h4>
+            <h4 className="font-semibold mb-4 text-gold">Company</h4>
             <ul className="space-y-2 text-sm">
               <li><Link to="/certifications" className="text-gray-400 hover:text-gold transition-colors">Certifications</Link></li>
-              <li><span className="text-gray-400">NATO CAGE #SLHT3</span></li>
-              <li><span className="text-gray-400">AHATA Member</span></li>
-              <li><span className="text-gray-400">ASIS International</span></li>
+              <li><Link to="/store" className="text-gray-400 hover:text-gold transition-colors">Store</Link></li>
+              <li><Link to="/contact" className="text-gray-400 hover:text-gold transition-colors">Contact</Link></li>
             </ul>
           </div>
           
