@@ -1,4 +1,5 @@
 import Navigation from '../components/Navigation';
+import MissionVision from '../components/MissionVision';
 
 import { Award, Users, Shield, Target, Globe, Briefcase, GraduationCap, CheckCircle, Building2 } from 'lucide-react';
 
@@ -150,6 +151,9 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+
+      {/* Mission & Vision Section */}
+      <MissionVision />
 
       {/* Values Section */}
       <section className="py-16">
