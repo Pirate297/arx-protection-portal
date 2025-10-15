@@ -1,5 +1,5 @@
 import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
+
 import { Award, Users, Shield, Target, Globe, Briefcase, GraduationCap, CheckCircle, Building2 } from 'lucide-react';
 
 export default function AboutPage() {
@@ -358,7 +358,7 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <Footer />
+
     </div>
   );
 }

@@ -1,5 +1,5 @@
 import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
+
 import { Shield, Camera, Users, Plane, AlertCircle, Lock, Radio, Search } from 'lucide-react';
 
 export default function ServicesPage() {
@@ -213,7 +213,7 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <Footer />
+
     </div>
   );
 }
