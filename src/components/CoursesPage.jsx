@@ -13,7 +13,7 @@ const courses = [
     image: "/courses/stop-the-bleed.jpeg",
     description: "Learn life-saving bleeding control techniques. This course teaches you how to recognize life-threatening bleeding and intervene effectively.",
     duration: "4 hours",
-    price: 150.00,
+    price: 270.00,
     certification: "Stop the Bleed Certification",
     color: "from-red-500 to-rose-600",
     iconColor: "from-red-500 to-rose-500",
@@ -39,7 +39,7 @@ const courses = [
     image: "/courses/executive-protection.jpeg",
     description: "Comprehensive introduction to personal and asset protection. Learn fundamental security principles and protective techniques.",
     duration: "2 days (16 hours)",
-    price: 500.00,
+    price: 900.00,
     certification: "Basic Protection Certificate",
     color: "from-blue-500 to-cyan-600",
     iconColor: "from-blue-500 to-cyan-500",
@@ -65,7 +65,7 @@ const courses = [
     image: "/courses/drone-training.jpeg",
     description: "Professional-level training in executive protection operations. Designed for those pursuing careers in close protection and VIP security.",
     duration: "5 days (40 hours)",
-    price: 1250.00,
+    price: 2250.00,
     certification: "Executive Protection Specialist Certificate",
     color: "from-yellow-500 to-orange-600",
     iconColor: "from-yellow-500 to-orange-500",
@@ -181,7 +181,7 @@ function CourseCard({ course, onEnroll }) {
           {/* Price */}
           <div className="flex items-baseline gap-2">
             <span className={`text-4xl font-bold bg-gradient-to-r ${course.color} bg-clip-text text-transparent`}>
-              ${course.price}
+              AWG {course.price}
             </span>
             <span className="text-gray-400 text-sm">per person</span>
           </div>
