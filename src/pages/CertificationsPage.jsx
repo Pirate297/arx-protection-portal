@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Navigation from '../components/Navigation';
-import Footer from '../components/Footer';
 import { Shield, Award, CheckCircle } from 'lucide-react';
 
 export default function CertificationsPage() {
@@ -238,8 +237,6 @@ export default function CertificationsPage() {
           </div>
         </div>
       </section>
-
-      <Footer />
     </div>
   );
 }
