@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "alexander.tsu",
+      "password": "$2b$10$FMTq3iJ/RTao.F9Ur5Fdm.cbVCiL/jJOX5nV3.Mz099dWF4kEOPNW",
+      "firstName": "Alexander",
+      "lastName": "Tsu",
+      "email": "alexander@arxglobalprotection.com",
+      "employeeId": "ARX001",
+      "role": "admin",
+      "department": "Management",
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "username": "cedric.croes",
+      "password": "$2b$10$FMTq3iJ/RTao.F9Ur5Fdm.cbVCiL/jJOX5nV3.Mz099dWF4kEOPNW",
+      "firstName": "Cedric",
+      "lastName": "Croes",
+      "email": "cedric@arxglobalprotection.com",
+      "employeeId": "ARX002",
+      "role": "manager",
+      "department": "Operations",
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "username": "millicent.croes",
+      "password": "$2b$10$FMTq3iJ/RTao.F9Ur5Fdm.cbVCiL/jJOX5nV3.Mz099dWF4kEOPNW",
+      "firstName": "Millicent",
+      "lastName": "Croes",
+      "email": "millicent@arxglobalprotection.com",
+      "employeeId": "ARX003",
+      "role": "supervisor",
+      "department": "Training",
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "username": "bruce.croes",
+      "password": "$2b$10$FMTq3iJ/RTao.F9Ur5Fdm.cbVCiL/jJOX5nV3.Mz099dWF4kEOPNW",
+      "firstName": "Bruce",
+      "lastName": "Croes",
+      "email": "bruce@arxglobalprotection.com",
+      "employeeId": "ARX004",
+      "role": "employee",
+      "department": "Security Operations",
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "username": "dijon.croes",
+      "password": "$2b$10$FMTq3iJ/RTao.F9Ur5Fdm.cbVCiL/jJOX5nV3.Mz099dWF4kEOPNW",
+      "firstName": "Dijon",
+      "lastName": "Croes",
+      "email": "dijon@arxglobalprotection.com",
+      "employeeId": "ARX005",
+      "role": "employee",
+      "department": "Security Operations",
+      "status": "active",
+      "createdAt": "2024-01-01T00:00:00.000Z"
+    }
+  ]
+}
+

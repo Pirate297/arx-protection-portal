@@ -1,11 +1,13 @@
 import { Link, useLocation } from 'react-router-dom'
 import { Button } from '@/components/ui/button.jsx'
+import { Shield } from 'lucide-react'
 import arxLogo from '../assets/arx-castle-logo.jpeg'
 
 export default function Navigation() {
   const location = useLocation()
   
   const isActive = (path) => location.pathname === path
+  const isPortalRoute = location.pathname.startsWith('/employee-portal')
 
   return (
     <nav className="fixed top-0 w-full bg-black/95 backdrop-blur-sm z-50 border-b border-gold/20">
@@ -74,11 +76,22 @@ export default function Navigation() {
             </Link>
           </div>
           
-          <Link to="/contact">
-            <Button className="bg-gold text-black hover:bg-gold/90">
-              Get Consultation
-            </Button>
-          </Link>
+          <div className="flex items-center gap-3">
+            <Link to="/employee-portal">
+              <Button 
+                variant="ghost"
+                className={isPortalRoute ? 'bg-purple-600 text-white hover:bg-purple-700' : 'text-white hover:text-purple-400 hover:bg-white/10'}
+              >
+                <Shield className="w-4 h-4 mr-2" />
+                Employee Portal
+              </Button>
+            </Link>
+            <Link to="/contact">
+              <Button className="bg-gold text-black hover:bg-gold/90">
+                Get Consultation
+              </Button>
+            </Link>
+          </div>
         </div>
       </div>
     </nav>

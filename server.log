@@ -1,0 +1,3 @@
+🚀 ARX Protection API server running on http://localhost:3001
+📝 Authentication endpoints available at /api/auth/*
+👥 Admin endpoints available at /api/admin/*

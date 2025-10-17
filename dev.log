@@ -1,0 +1,11 @@
+
+> arx-protection-site@0.0.0 dev /home/ubuntu/arx-protection-site
+> vite
+
+2:57:46 PM [vite] (client) Re-optimizing dependencies because lockfile has changed
+
+  VITE v6.3.5  ready in 938 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
