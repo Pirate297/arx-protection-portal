@@ -32,7 +32,7 @@ export default function CourseRegistrationForm({ course, session, onClose }) {
 
     try {
       // Send to backend API that will handle Monday.com integration
-      const response = await fetch('http://localhost:3001/api/course-registration', {
+      const response = await fetch('/api/course-registration', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

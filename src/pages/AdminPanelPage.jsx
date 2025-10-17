@@ -52,7 +52,7 @@ export default function AdminPanelPage() {
 
   const fetchUsers = async (token) => {
     try {
-      const response = await fetch('http://localhost:3001/api/admin/users', {
+      const response = await fetch('/api/admin/users', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -76,7 +76,7 @@ export default function AdminPanelPage() {
     const token = localStorage.getItem('arxToken')
 
     try {
-      const response = await fetch('http://localhost:3001/api/admin/users', {
+      const response = await fetch('/api/admin/users', {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -106,7 +106,7 @@ export default function AdminPanelPage() {
     const token = localStorage.getItem('arxToken')
 
     try {
-      const response = await fetch(`http://localhost:3001/api/admin/users/${selectedUser.id}`, {
+      const response = await fetch(`/api/admin/users/${selectedUser.id}`, {
         method: 'PUT',
         headers: {
           'Authorization': `Bearer ${token}`,
@@ -140,7 +140,7 @@ export default function AdminPanelPage() {
     const token = localStorage.getItem('arxToken')
 
     try {
-      const response = await fetch(`http://localhost:3001/api/admin/users/${userId}`, {
+      const response = await fetch(`/api/admin/users/${userId}`, {
         method: 'DELETE',
         headers: {
           'Authorization': `Bearer ${token}`
@@ -164,7 +164,7 @@ export default function AdminPanelPage() {
     const token = localStorage.getItem('arxToken')
 
     try {
-      const response = await fetch(`http://localhost:3001/api/admin/users/${userId}/activate`, {
+      const response = await fetch(`/api/admin/users/${userId}/activate`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`
@@ -196,7 +196,7 @@ export default function AdminPanelPage() {
     const token = localStorage.getItem('arxToken')
 
     try {
-      const response = await fetch(`http://localhost:3001/api/admin/users/${userId}/reset-password`, {
+      const response = await fetch(`/api/admin/users/${userId}/reset-password`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${token}`,

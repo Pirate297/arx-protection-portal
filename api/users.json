@@ -3,7 +3,7 @@
     {
       "id": "1",
       "username": "alexander.tsu",
-      "password": "$2b$10$FMTq3iJ/RTao.F9Ur5Fdm.cbVCiL/jJOX5nV3.Mz099dWF4kEOPNW",
+      "password": "pbkdf2:sha256:1000000$B6GcH5KQgiacGlho$c7096214ea08f536928ee59bc598758b69473bee259ddcd3bf6ac69cc1839b1d",
       "firstName": "Alexander",
       "lastName": "Tsu",
       "email": "alexander@arxglobalprotection.com",
@@ -16,7 +16,7 @@
     {
       "id": "2",
       "username": "cedric.croes",
-      "password": "$2b$10$FMTq3iJ/RTao.F9Ur5Fdm.cbVCiL/jJOX5nV3.Mz099dWF4kEOPNW",
+      "password": "pbkdf2:sha256:1000000$BKu1FzncrIb0g6v3$a47156e9515ba8baed6b533c7981f64c37ed4e1ac05b817b4936479c14d1e3f9",
       "firstName": "Cedric",
       "lastName": "Croes",
       "email": "cedric@arxglobalprotection.com",
@@ -29,7 +29,7 @@
     {
       "id": "3",
       "username": "millicent.croes",
-      "password": "$2b$10$FMTq3iJ/RTao.F9Ur5Fdm.cbVCiL/jJOX5nV3.Mz099dWF4kEOPNW",
+      "password": "pbkdf2:sha256:1000000$MNJGR3LnhIjAXGeJ$1fc708d4e043b4e64f7b9a4bef35df7431d7e2bd74de771223656a6a104433c9",
       "firstName": "Millicent",
       "lastName": "Croes",
       "email": "millicent@arxglobalprotection.com",
@@ -42,7 +42,7 @@
     {
       "id": "4",
       "username": "bruce.croes",
-      "password": "$2b$10$FMTq3iJ/RTao.F9Ur5Fdm.cbVCiL/jJOX5nV3.Mz099dWF4kEOPNW",
+      "password": "pbkdf2:sha256:1000000$AUFkKZmWXlrxJkgy$005055dd4d16d172b5c8704a3842dd5ff71df04dddd4a6c69a00cb07ea049c3e",
       "firstName": "Bruce",
       "lastName": "Croes",
       "email": "bruce@arxglobalprotection.com",
@@ -55,7 +55,7 @@
     {
       "id": "5",
       "username": "dijon.croes",
-      "password": "$2b$10$FMTq3iJ/RTao.F9Ur5Fdm.cbVCiL/jJOX5nV3.Mz099dWF4kEOPNW",
+      "password": "pbkdf2:sha256:1000000$oWrYfzNd61X8oVTT$f7f29c5055fa9171cdadf85f4ed849ebfe96115722e663db531dc363ecdff38c",
       "firstName": "Dijon",
       "lastName": "Croes",
       "email": "dijon@arxglobalprotection.com",
@@ -67,4 +67,3 @@
     }
   ]
 }
-
