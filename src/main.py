@@ -6,7 +6,7 @@ import json
 import os
 from datetime import timedelta
 
-app = Flask(__name__, static_folder='dist', static_url_path='')
+app = Flask(__name__, static_folder='../dist', static_url_path='')
 
 # Configuration
 app.config['JWT_SECRET_KEY'] = 'arx-protection-super-secret-key-2025'  # Change in production
@@ -17,7 +17,7 @@ CORS(app, resources={r"/api/*": {"origins": "*"}})
 jwt = JWTManager(app)
 
 # Database file path
-USERS_FILE = os.path.join(os.path.dirname(__file__), 'api', 'users.json')
+USERS_FILE = os.path.join(os.path.dirname(__file__), '..', 'api', 'users.json')
 
 # Helper functions
 def load_users():

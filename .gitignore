@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Node
+node_modules/
+.pnpm-store/
+
+# Build
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+flask.log
+flask_new.log
+flask_final.log
+dev.log
+server.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+
+# Test files
+test_auth.py
+rehash_passwords.py
+generate-hash.js
+# Keep dist for deployment
