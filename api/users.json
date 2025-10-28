@@ -34,7 +34,7 @@
       "lastName": "Alvarez",
       "email": "millicent@arxglobalprotection.com",
       "employeeId": "ARX003",
-      "role": "supervisor",
+      "role": "manager",
       "department": "Training",
       "status": "active",
       "createdAt": "2024-01-01T00:00:00.000Z"
@@ -47,7 +47,7 @@
       "lastName": "Henriquez",
       "email": "bruce@arxglobalprotection.com",
       "employeeId": "ARX004",
-      "role": "employee",
+      "role": "supervisor",
       "department": "Security Operations",
       "status": "active",
       "createdAt": "2024-01-01T00:00:00.000Z"
@@ -60,7 +60,7 @@
       "lastName": "Inesia",
       "email": "dijon@arxglobalprotection.com",
       "employeeId": "ARX005",
-      "role": "employee",
+      "role": "supervisor",
       "department": "Security Operations",
       "status": "active",
       "createdAt": "2024-01-01T00:00:00.000Z"
